@@ -1,4 +1,4 @@
-# Repo1
+# VRWeb
 Pràctica Web
 Desenvolupa un lloc web, format per diferents arxius html enllaçats entre sí amb
 hipervincles.
