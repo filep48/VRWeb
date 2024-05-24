@@ -1,0 +1,409 @@
+body {
+  background-image: url("imagenes/banner-bg.jpg");
+  background-color: #492d67;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  display: flex;
+}
+
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(149, 245, 253);
+  border-radius: 15px;
+  opacity: 0.85;
+  width: 95%;
+  position: absolute;
+  margin-left: 2%;
+  
+}
+
+.footer {
+  background-color: rgb(149, 245, 253);
+  border-radius: 15px;
+  opacity: 0.85;
+  position: fixed;
+  margin-left: 76%;
+  margin-top: 75%;
+  bottom: 20px;
+  box-shadow: 10px 10px 0px 0px rgb(180, 99, 255);
+  padding: 0px 10px 0px 10px;
+}
+
+.red1:hover {
+  background-color: rgb(68, 136, 176);
+  border-radius: 60px;
+  position: relative;
+  bottom: 5px;
+  transition-duration: 0.4s;
+}
+
+.red2:hover {
+  background-color: rgb(68, 136, 176);
+  border-radius: 60px;
+  position: relative;
+  bottom: 5px;
+  transition-duration: 0.4s;
+}
+
+.red3:hover {
+  background-color: rgb(68, 136, 176);
+  border-radius: 60px;
+  position: relative;
+  bottom: 5px;
+  transition-duration: 0.4s;
+}
+
+.red4:hover {
+  background-color: rgb(68, 136, 176);
+  border-radius: 60px;
+  position: relative;
+  bottom: 5px;
+  transition-duration: 0.4s;
+}
+
+.header a {
+  flex: 1;
+}
+
+.button1 {
+  background-color: rgb(149, 245, 253);
+  color: black;
+  border: 2px solid rgb(149, 245, 253);
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 100%;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 15px;
+  text-shadow: 1px 1px 1px rgb(255, 255, 255);
+}
+
+.button2 {
+  background-color: rgb(149, 245, 253);
+  color: black;
+  border: 2px solid rgb(149, 245, 253);
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 100%;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 15px;
+  text-shadow: 1px 1px 1px rgb(255, 255, 255);
+}
+
+.button3 {
+  background-color: rgb(149, 245, 253);
+  color: black;
+  border: 2px solid rgb(149, 245, 253);
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 100%;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 15px;
+  text-shadow: 1px 1px 1px rgb(255, 255, 255);
+}
+
+.button4 {
+  background-color: rgb(149, 245, 253);
+  color: black;
+  border: 2px solid rgb(149, 245, 253);
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 100%;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 15px;
+  text-shadow: 1px 1px 1px rgb(255, 255, 255);
+}
+
+
+.button1:hover {
+  background-color: rgb(68, 136, 176);
+  color: rgb(255, 255, 255);
+}
+
+.button2:hover {
+  background-color: rgb(68, 136, 176);
+  color: rgb(255, 255, 255);
+}
+
+
+.button3:hover {
+  background-color: rgb(68, 136, 176);
+  color: rgb(255, 255, 255);
+}
+
+.button4:hover {
+  background-color: rgb(68, 136, 176);
+  color: rgb(255, 255, 255);
+}
+
+.button5:hover {
+  background-color: rgb(68, 136, 176);
+  color: rgb(255, 255, 255);
+}
+
+
+.lindice {
+  font-size: 30px;
+  display: flex;
+  font-family: sans-serif;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  transition-duration: 0.4s;
+  font-weight: bold;
+  border-radius: 15px;
+  text-shadow: 4px 4px 4px rgb(0, 183, 255);
+  padding: 5px;
+}
+
+.lindice:hover {
+  background-color: rgb(68, 136, 176);
+  color: rgb(255, 255, 255);
+}
+
+.glindice {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(149, 245, 253);
+  border-radius: 15px;
+  opacity: 0.85;
+  box-shadow: 10px 10px 0px 0px rgb(180, 99, 255);
+}
+
+.ulIndice {
+  position: fixed;
+  top: 15%;
+  left: 77%;
+}
+
+.headerindice1 {
+  left: 50px;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  text-shadow: 4px 4px 4px rgb(0, 183, 255);
+  margin-left: 10px;
+}
+
+.espacio {
+  position: relative;
+  Margin-top: 10%;
+  margin-left: -4%;
+  width: fit-content;
+  height: fit-content;
+  background-color: rgba(155, 247, 255, 0.904);
+  border-radius: 15px;
+  box-shadow: 10px 10px 0px 0px rgb(180, 99, 255);
+}
+
+.info1 {
+  position: relative;
+  width: fit-content;
+  margin-top: 3%;
+  height: fit-content;
+  margin-left: 3%;
+  background-color: rgb(149, 245, 253);
+  border-radius: 15px;
+  opacity: 0.85;
+  padding: 10px;
+  margin-right: 30%;
+  margin-bottom: 12%;
+  box-shadow: 10px 10px 0px 0px rgb(180, 99, 255);
+
+}
+
+.p3 {
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  font-weight: bold;
+  margin: 5px;
+  margin-left: 25px;
+  font-family: 'Roboto', sans-serif;
+  text-shadow: 1px 1px 1px rgb(255, 255, 255);
+}
+
+.p4 {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  text-shadow: 1px 1px 1px rgb(255, 255, 255);
+}
+
+.headerinfo1 {
+  position: relative;
+  margin-top: 5%;
+  left: 50px;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 4px 4px 4px rgb(0, 183, 255);
+  font-family: 'Roboto', sans-serif;
+}
+
+.p2 {
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  font-weight: bold;
+  margin: 5px;
+  margin-left: 25px;
+  font-family: 'Roboto', sans-serif;
+  /* i want to make this title 3D */
+  text-shadow: 4px 4px 4px rgb(0, 183, 255);
+}
+
+.p1 {
+  color: rgb(233, 178, 235);
+  font-size: 40px;
+  font-weight: bold;
+  margin: 5px;
+  size: fixed;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  text-shadow: 8px 8px 8px rgb(149, 0, 255);
+  position: relative;
+  left: 50px;
+  top: 80px;
+  margin-right: 20%;
+}
+
+.GC {
+  display: flex;
+}
+
+.mapas {
+  margin-right: 20px;
+}
+
+.cal {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.chicoVr {
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+  margin-right: 25%;
+  margin-left: 3%;
+
+}
+
+.ph {
+  position: relative;
+  left: 20px;
+  margin-right: 20px;
+  width: fit-content;
+  background-color: rgb(149, 245, 253);
+  border-radius: 10px;
+  opacity: 0.85;
+  font-family: sans-serif;
+  font-size: 20px;
+  padding: 10px;
+
+}
+
+.gph {
+  background-color: rgb(149, 245, 253);
+  border-radius: 10px;
+  opacity: 0.85;
+  margin-top: 120px;
+  margin-right: 25%;
+  box-shadow: 10px 10px 0px 0px rgb(180, 99, 255);
+  margin-left: 3%;
+}
+
+.red {
+  position: sticky;
+  left: 40px;
+  width: fit-content;
+  opacity: 0.85;
+}
+
+.formulario {
+  position: relative;
+  margin-left: 6%;
+  margin-top: 12%;
+  margin-bottom: 5%;
+  background-color: rgba(149, 244, 253, 0.807);
+  border-radius: 10px;
+  box-shadow: 10px 10px 0px 0px rgb(180, 99, 255);
+  padding: 10px;
+}
+
+.contacto {
+  position: relative;
+  margin-left: 40%;
+  margin-bottom: 1%;
+  border-color: rgba(0, 0, 0, 0);
+  text-shadow: 4px 4px 4px rgb(0, 183, 255);
+  background-color: rgb(149, 245, 253);
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  transition-duration: 0.4s;
+  color: rgb(0, 0, 0);
+
+}
+
+.contacto:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(68, 136, 176);
+  transition-delay: 0.4s;
+}
+
+.styled-table {
+  border-collapse: collapse;
+  margin-left: 5%;
+  font-size: 1em;
+  font-family: sans-serif;
+  min-width: 450px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .8);
+  border-radius: 15px;
+
+}
+
+.styled-table thead tr {
+  background-color: #980081;
+  color: #ffffff;
+  text-align: middle;
+  
+  
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+  text-align: center;
+}
+
+.map{
+  position: relative;
+  margin-left: 3%;
+  margin-bottom: 5%;
+}
